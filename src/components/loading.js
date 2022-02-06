@@ -1,7 +1,7 @@
 import * as React from 'react';
 import CircularProgress from '@mui/material/CircularProgress';
 import Box from '@mui/material/Box';
-import { typography } from '@mui/system';
+import { Typography } from '@mui/material';
 
 export function Loading () {
     return(
@@ -13,9 +13,9 @@ export function Loading () {
             alignItems:'center', 
             flexDirection:'column'}}>
             <CircularProgress />
-            <typography>
+            <Typography>
                 Cargando...
-            </typography>
+            </Typography>
         </Box>
     ) 
 }
